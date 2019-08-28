@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/promethiumchain/go-promethium/accounts/scwallet"
+	"github.com/promethiumchain/go-promethium/accounts/usbwallet"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/rpc"
 	"github.com/robertkrimen/otto"
 )
 

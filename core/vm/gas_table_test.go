@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/common"
+	"github.com/promethiumchain/go-promethium/common/hexutil"
+	"github.com/promethiumchain/go-promethium/core/rawdb"
+	"github.com/promethiumchain/go-promethium/core/state"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

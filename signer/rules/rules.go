@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/promethiumchain/go-promethium/internal/ethapi"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/signer/core"
+	"github.com/promethiumchain/go-promethium/signer/rules/deps"
+	"github.com/promethiumchain/go-promethium/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

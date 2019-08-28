@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/common"
+	"github.com/promethiumchain/go-promethium/common/hexutil"
+	"github.com/promethiumchain/go-promethium/consensus"
+	"github.com/promethiumchain/go-promethium/core"
+	"github.com/promethiumchain/go-promethium/core/state"
+	"github.com/promethiumchain/go-promethium/core/types"
+	"github.com/promethiumchain/go-promethium/eth/downloader"
+	"github.com/promethiumchain/go-promethium/event"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 // Backend wraps all methods required for mining.

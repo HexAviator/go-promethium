@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/consensus/ethash"
+	"github.com/promethiumchain/go-promethium/core/rawdb"
+	"github.com/promethiumchain/go-promethium/core/vm"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

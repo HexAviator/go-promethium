@@ -19,12 +19,12 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/common"
+	"github.com/promethiumchain/go-promethium/consensus"
+	"github.com/promethiumchain/go-promethium/core/state"
+	"github.com/promethiumchain/go-promethium/core/types"
+	"github.com/promethiumchain/go-promethium/core/vm"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

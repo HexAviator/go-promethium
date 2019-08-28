@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/common"
+	"github.com/promethiumchain/go-promethium/common/math"
+	"github.com/promethiumchain/go-promethium/consensus/ethash"
+	"github.com/promethiumchain/go-promethium/core/rawdb"
+	"github.com/promethiumchain/go-promethium/core/types"
+	"github.com/promethiumchain/go-promethium/core/vm"
+	"github.com/promethiumchain/go-promethium/crypto"
+	"github.com/promethiumchain/go-promethium/ethdb"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

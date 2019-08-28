@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/promethiumchain/go-promethium/common/mclock"
+	"github.com/promethiumchain/go-promethium/common/prque"
+	"github.com/promethiumchain/go-promethium/ethdb"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/p2p/enode"
+	"github.com/promethiumchain/go-promethium/rlp"
 )
 
 const (

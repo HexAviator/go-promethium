@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/promethiumchain/go-promethium/internal/testlog"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/p2p/enode"
+	"github.com/promethiumchain/go-promethium/p2p/enr"
+	"github.com/promethiumchain/go-promethium/p2p/netutil"
 )
 
 func init() {

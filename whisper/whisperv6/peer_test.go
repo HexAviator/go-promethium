@@ -28,13 +28,13 @@ import (
 
 	"net"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/promethiumchain/go-promethium/common"
+	"github.com/promethiumchain/go-promethium/common/hexutil"
+	"github.com/promethiumchain/go-promethium/crypto"
+	"github.com/promethiumchain/go-promethium/p2p"
+	"github.com/promethiumchain/go-promethium/p2p/enode"
+	"github.com/promethiumchain/go-promethium/p2p/nat"
+	"github.com/promethiumchain/go-promethium/rlp"
 )
 
 var keys = []string{

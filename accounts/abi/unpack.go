@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/promethiumchain/go-promethium/common"
 )
 
 var (

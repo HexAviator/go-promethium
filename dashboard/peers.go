@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/promethiumchain/go-promethium/metrics"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/promethiumchain/go-promethium/log"
+	"github.com/promethiumchain/go-promethium/p2p"
 )
 
 const (

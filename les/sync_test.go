@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/promethiumchain/go-promethium/accounts/abi/bind"
+	"github.com/promethiumchain/go-promethium/core"
+	"github.com/promethiumchain/go-promethium/crypto"
+	"github.com/promethiumchain/go-promethium/light"
+	"github.com/promethiumchain/go-promethium/params"
 )
 
 // Test light syncing which will download all headers from genesis.
