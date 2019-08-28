@@ -16,7 +16,7 @@
 
 // Contains a wrapper for the Whisper client.
 
-package geth
+package promethium
 
 import (
 	"github.com/promethiumchain/go-promethium/whisper/shhclient"

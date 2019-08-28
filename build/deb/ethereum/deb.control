@@ -11,8 +11,8 @@ Vcs-Browser: https://github.com/promethiumchain/go-promethium
 Package: {{.Name}}
 Architecture: any
 Depends: ${misc:Depends}, {{.ExeList}}
-Description: Meta-package to install geth and other tools
- Meta-package to install geth and other tools
+Description: Meta-package to install promethium and other tools
+ Meta-package to install promethium and other tools
 
 {{range .Executables}}
 Package: {{$.ExeName .}}
